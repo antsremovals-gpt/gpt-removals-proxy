@@ -2,8 +2,9 @@
   "version": 2,
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/ask.js"
+      "src": "/api/ask",
+      "methods": ["POST"],
+      "dest": "api/ask.js"
     }
   ]
 }
