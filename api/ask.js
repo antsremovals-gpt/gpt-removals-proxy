@@ -14,7 +14,8 @@ export default async function handler(req, res) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": "Bearer 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"
+        "Authorization": "Bearer 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"
+
       },
       body: JSON.stringify({
         model: "gpt-4o",
